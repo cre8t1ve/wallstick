@@ -1,0 +1,20 @@
+[package]
+name = "cre8t1ve/wallstick-server"
+description = ""
+version = "0.0.5"
+license = "MIT"
+authors = ["EgoMoose"]
+realm = "server"
+registry = "https://github.com/upliftgames/wally-index"
+homepage = "https://devforum.roblox.com/t/wall-stickgravity-controller/432598"
+repository = "https://github.com/cre8t1ve/wallstick"
+
+[dependencies]
+Trove = "sleitnick/trove@1.5.0"
+TypedRemote = "sleitnick/typed-remote@0.2.0"
+RaycastHelper = "egomoose/raycast-helper@3.0.0"
+CharacterSounds = "egomoose/character-sounds@0.2.1"
+CharacterAnimate = "egomoose/character-animate@0.0.3"
+
+[server-dependencies]
+PlayerModule = "upliftgames/playermodule@675.1.6750723"
